@@ -1,0 +1,10 @@
+
+
+code=input('=>enter your code here<=').lower()
+letter="abcdefghijklmnopqrstuvwxyz"
+symbol="!@#$%^&*()_+/-{}:;?><,.=`~"
+###############################################
+trans = code.maketrans(letter, symbol)
+text= code.translate(trans)
+print(text)
+
